@@ -1,0 +1,54 @@
+site_name: La Bible du dev (L'évangile selon CS)
+repo_url: https://github.com/SampedroCyril/Bible
+site_author: Sampedro Cyril
+theme:
+  name: material
+  logo: assets/dev.png
+  features:
+    - navigation.instant
+    - search.highlight
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      toggle:
+        icon: material/weather-sunny 
+        name: Passer en dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: orange
+      toggle:
+        icon: material/weather-night
+        name: Passer en light mode
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+nav:
+  - Accueil: index.md
+  - Liens utiles: liens.md
+  - Markdown: markdown.md
+  - VS Code: vsc.md
+  - HTML & CSS:
+    - 'HTML': 'html.md' 
+    - 'CSS': 'html.md' 
+  - Langages de Programmation:
+      - 'PHP': 'php.md'
+      - 'JavaScript': 'js.md'
+      - 'TypeScript': 'typescript.md'
+      - 'Java': 'java.md'
+  - Base de données:
+      - 'SQL': 'sql.md' 
+  - Frameworks:
+      - Angular : 'angular.md'
+  - CheatSheets:
+      - HTML : 'cheatsheet_html.md'
+  - About: about.md
+
+copyright: >
+  Copyright &copy; Le prophète CS.
