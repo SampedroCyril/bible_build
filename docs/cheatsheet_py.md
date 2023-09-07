@@ -18,3 +18,29 @@ Met en capitale à chaque début de mot
 print('hello world'.title())
 >>> Hello World
 ```
+
+## Methode #split
+Permet de séparer une chaine de caractères par ses espaces et de stocker le tout dans un tableau
+
+```py
+message = "1 2 3 4 5"
+print(message.split())
+>>> ['1', '2', '3', '4', '5']
+```
+
+## Methode #ord
+Permet de récupérer le code ASCII d'un ou plusieurs caractères
+
+```py
+print(ord('k'))
+>>>107
+```
+
+## Methode #chr
+Permet de récupérer le caractère d'un code ASCII
+
+```py
+print(chr(107))
+>>>k
+```
+

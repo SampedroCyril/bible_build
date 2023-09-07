@@ -81,3 +81,24 @@
       }, 1000);
   }
 ```
+
+---
+
+## Les manipulations de listes
+
+- **Parcourir l'ensemble d'une liste et afficher ses élements**
+
+```js
+const names = ['Jack', 'Laura', 'Paul', 'Megan'];
+names.forEach((name) => console.log(name));
+```
+
+- **`delete`** : Supprime une élement d'une liste.
+
+```js
+const names = ['Jack', 'Laura', 'Paul', 'Megan'];
+delete names[1];
+// => ["Jack", empty, "Paul", "Megan"]
+```
+
+- **`length`**
