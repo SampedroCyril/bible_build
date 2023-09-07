@@ -58,6 +58,7 @@ nav:
       - Angular : angular.md
   - CheatSheets:
       - HTML : cheatsheet_html.md
+      - Python : cheatsheet_py.md
   - About: about.md
 
 copyright: >
