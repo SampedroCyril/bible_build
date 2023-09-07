@@ -19,7 +19,7 @@ print('hello world'.title())
 >>> Hello World
 ```
 
-## Methode #split
+- **split**
 Permet de séparer une chaine de caractères par ses espaces et de stocker le tout dans un tableau
 
 ```py
@@ -28,7 +28,7 @@ print(message.split())
 >>> ['1', '2', '3', '4', '5']
 ```
 
-## Methode #ord
+- **ord**
 Permet de récupérer le code ASCII d'un ou plusieurs caractères
 
 ```py
@@ -36,7 +36,7 @@ print(ord('k'))
 >>>107
 ```
 
-## Methode #chr
+- **chr**
 Permet de récupérer le caractère d'un code ASCII
 
 ```py
