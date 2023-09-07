@@ -27,6 +27,15 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
 
 
 nav:
@@ -35,19 +44,20 @@ nav:
   - Markdown: markdown.md
   - VS Code: vsc.md
   - HTML & CSS:
-    - 'HTML': 'html.md' 
-    - 'CSS': 'html.md' 
+    - HTML: html.md
+    - CSS: html.md 
   - Langages de Programmation:
-      - 'PHP': 'php.md'
-      - 'JavaScript': 'js.md'
-      - 'TypeScript': 'typescript.md'
-      - 'Java': 'java.md'
+      - PHP: php.md
+      - JavaScript: js.md
+      - TypeScript: typescript.md
+      - Java: java.md
+      - Python: py.md
   - Base de données:
-      - 'SQL': 'sql.md' 
+      - SQL: sql.md 
   - Frameworks:
-      - Angular : 'angular.md'
+      - Angular : angular.md
   - CheatSheets:
-      - HTML : 'cheatsheet_html.md'
+      - HTML : cheatsheet_html.md
   - About: about.md
 
 copyright: >

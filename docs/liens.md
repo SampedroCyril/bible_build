@@ -5,3 +5,4 @@
 - [TUTO API FETCH](https://developer.mozilla.org/fr/docs/Web/API/Fetch_API)
 - [W3C SCHOOL](https://www.w3schools.com/)
 - [DOC ANGULAR](https://angular.io/docs)
+- [MKDOCS TO PDF CAPON](https://github.com/FrancoisCapon/BetaMkDocsMatrixOSCP)
